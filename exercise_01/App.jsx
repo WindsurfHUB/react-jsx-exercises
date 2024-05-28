@@ -5,6 +5,7 @@ function App() {
   return (
     <>
       <Header />
+      <Nav />
       <Main />
       <Footer />
     </>
@@ -16,7 +17,15 @@ function Header() {
     <>
       <header>
         <h1>Welcome to My Website</h1>
-        <nav>
+      </header>
+    </>
+  );
+}
+
+function Nav() {
+  return (
+    <>
+    <nav>
           <ul>
             <li>
               <a href="#home">Home</a>
@@ -29,9 +38,8 @@ function Header() {
             </li>
           </ul>
         </nav>
-      </header>
     </>
-  );
+  )
 }
 
 function Main() {
